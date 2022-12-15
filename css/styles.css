@@ -1,0 +1,113 @@
+/****TAG SELECTORS****/
+
+body {
+    background: radial-gradient(circle at 10% 20%, rgb(242, 235, 243) 0%, rgb(234, 241, 249) 90.1%);
+}
+
+h1 {
+font-family: 'Trispace', sans-serif;
+text-align: center;
+line-height: 2;
+}
+
+h3 {
+    font-family: 'Chivo Mono', monospace;
+}
+
+h4 {
+  text-align: left;
+}
+
+hr {
+    border: dotted #9D9D9D;
+    border-top: none;
+    width: 2%;
+    opacity: 0.2;
+}
+
+th {
+    color: #a2a8d3;
+    font-family: 'Chivo Mono', monospace;
+font-size: 14px;
+    width: 50px;
+    text-align: center;
+    line-height: 2;
+    margin: auto;
+}
+
+tr {
+    text-align: center;
+}
+
+/****ID SELECTORS****/
+#main-box {
+    background-color: #FFFFFF;
+    border: solid 5px #D2DAFF;
+    color: #000000;
+    text-align: center;
+    height: 300%;
+    width: 40%;
+    margin: auto;
+}
+
+/****CLASS SELECTORS****/
+
+.box1 {
+    background-color: rgb(234, 241, 249);
+    margin: auto;
+    border-radius: 8px;
+}
+
+.box2 {
+text-align: left;
+}
+
+.box3 {
+    text-align: left;
+}
+
+.box4 {
+    background-color: rgb(234, 241, 249);
+    margin: auto;
+    border-radius: 8px;
+}
+
+.flex-box {
+    display: flex;
+    text-align: center;
+}
+
+.flex1 {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.flex2 {
+flex: 1;
+}
+
+.highlighter {
+    width: 20%;
+    float: left;
+    }    
+
+.lipgloss {
+    width: 20%;
+    float: left;
+}
+
+.payment-box {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    height: 60px;
+    width: 200px;
+    background-color: rgb(234, 241, 249);
+}
+
+.summary {
+    color: #5f6769;
+    width: fit-content;
+    border-spacing: 5px;
+}
